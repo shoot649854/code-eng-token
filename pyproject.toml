@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "code-eng-token"
+version = "0.1.0"
+description = ""
+authors = ["shoot649854 <jojoto9945@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.66.2"
+tiktoken = "^0.6.0"
+python-dotenv = "^1.0.1"
+logger = "^1.4"
+openai = "^1.12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
